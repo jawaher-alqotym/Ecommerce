@@ -9,7 +9,7 @@ import 'package:e_commerce/logic/bindings/auth_biniding.dart';
 // import 'package:udemy_shop_app/view/screens/auth/forgot_password_screen.dart';
 
  import 'package:e_commerce/views/screens/auth/login_screen.dart';
-// import 'package:udemy_shop_app/view/screens/auth/signup_screen.dart';
+ import 'package:e_commerce/views/screens/auth/signup_screen.dart';
 // import 'package:udemy_shop_app/view/screens/cart_screen.dart';
 // import 'package:udemy_shop_app/view/screens/main_screen.dart';
 // import 'package:udemy_shop_app/view/screens/payment_screen.dart';
@@ -32,11 +32,11 @@ class AppRoutes {
       page: () => LoginScreen(),
       binding: AuthBinding(),
     ),
-    // GetPage(
-    //   name: Routes.signUpScreen,
-    //   page: () => SignUpScreen(),
-    //   binding: AuthBinding(),
-    // ),
+    GetPage(
+      name: Routes.signUpScreen,
+      page: () => SignUpScreen(),
+      binding: AuthBinding(),
+    ),
     // GetPage(
     //   name: Routes.forgotPasswordScreen,
     //   page: () => ForgotPasswordScreen(),
