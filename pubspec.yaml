@@ -20,6 +20,16 @@ dependencies:
   get_storage: ^2.0.3
   google_fonts: ^2.1.0
   http: ^0.13.4
+  flutter_facebook_auth: ^3.5.0
+  badges: ^2.0.2
+  smooth_page_indicator: ^1.0.0+2
+  carousel_slider: ^4.0.0
+  flutter_rating_bar: ^4.0.0
+  flutter_simple_rating_bar: ^0.0.3
+  readmore: ^2.1.0
+  geolocator: ^8.0.1
+  geocoding: ^2.0.1
+  pay: ^1.0.6
   flutter:
     sdk: flutter
 
@@ -35,5 +45,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/
+
 
 
