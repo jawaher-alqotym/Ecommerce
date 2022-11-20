@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:e_commerce/models/facebook_model.dart';
 import 'package:e_commerce/routes/routes.dart';
 
 class AuthController extends GetxController {
