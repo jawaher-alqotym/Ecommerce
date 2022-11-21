@@ -138,6 +138,7 @@ class AuthController extends GetxController {
   void googleSinUpApp() async {
     try {
       final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
+
       displayUserName.value = googleUser!.displayName!;
       displayUserPhoto.value = googleUser.photoUrl!;
       displayUserEmail.value = googleUser.email;
@@ -208,7 +209,7 @@ class AuthController extends GetxController {
       await googleSignIn.signOut();
       displayUserName.value = '';
       displayUserPhoto.value = '';
-      //displayUserEmail.value = '';
+      displayUserEmail.value = '';
       isSignedIn = false;
       authBox.remove("auth");
       update();
