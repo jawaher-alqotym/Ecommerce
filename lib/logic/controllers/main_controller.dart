@@ -12,8 +12,8 @@ class MainController extends GetxController {
   var tabs = [
     HomeScreen(),
     CategoryScreen(),
-//    FavoritesScreen(),
-//    SettingsScreen(),
+    FavoritesScreen(),
+    SettingsScreen(),
   ].obs;
 
   var title = [

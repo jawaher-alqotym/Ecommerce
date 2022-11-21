@@ -23,11 +23,11 @@ class AuthController extends GetxController {
 
   @override
   void onInit() {
-    displayUserName.value =
-    (userProfiloe != null ? userProfiloe!.displayName : "")!;
-    displayUserPhoto.value =
-    (userProfiloe != null ? userProfiloe!.photoURL : "")!;
-    displayUserEmail.value = (userProfiloe != null ? userProfiloe!.email : "")!;
+    // displayUserName.value =
+    // (userProfiloe != null ? userProfiloe!.displayName : "")!;
+    // displayUserPhoto.value =
+    // (userProfiloe != null ? userProfiloe!.photoURL : "")!;
+    // displayUserEmail.value = (userProfiloe != null ? userProfiloe!.email : "")!;
 
     super.onInit();
   }
