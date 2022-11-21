@@ -34,10 +34,12 @@ class MyApp extends StatelessWidget {
       theme: ThemesApp.light,
       darkTheme: ThemesApp.dark,
       themeMode: ThemeController().themeDataGet,
-      initialRoute: FirebaseAuth.instance.currentUser != null ||
+      initialRoute:
+      FirebaseAuth.instance.currentUser != null ||
           GetStorage().read<bool>('auth') == true
           ? AppRoutes.mainSreen
-          : AppRoutes.welcome,
+          :
+      AppRoutes.welcome,
       getPages: AppRoutes.routes,
     );
   }
