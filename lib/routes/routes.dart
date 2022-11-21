@@ -10,7 +10,7 @@ import 'package:e_commerce/views/screens/auth/forgot_password_screen.dart';
 
  import 'package:e_commerce/views/screens/auth/login_screen.dart';
  import 'package:e_commerce/views/screens/auth/signup_screen.dart';
-// import 'package:e_commerce/views/screens/cart_screen.dart';
+ import 'package:e_commerce/views/screens/cart_screen.dart';
  import 'package:e_commerce/views/screens/main_screen.dart';
 // import 'package:e_commerce/views/screens/payment_screen.dart';
  import 'package:e_commerce/views/screens/welcome_screen.dart';
@@ -52,14 +52,14 @@ class AppRoutes {
         ProductBinding(),
       ],
     ),
-    // GetPage(
-    //   name: Routes.cartScreen,
-    //   page: () => CartScreen(),
-    //   bindings: [
-    //     AuthBinding(),
-    //     ProductBinding(),
-    //   ],
-    // ),
+    GetPage(
+      name: Routes.cartScreen,
+      page: () => CartScreen(),
+      bindings: [
+        AuthBinding(),
+        ProductBinding(),
+      ],
+    ),
     // GetPage(
     //   name: Routes.paymentScreen,
     //   page: () => PayMentScreen(),
