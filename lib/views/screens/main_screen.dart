@@ -6,14 +6,20 @@ import 'package:e_commerce/logic/controllers/main_controller.dart';
 import 'package:e_commerce/routes/routes.dart';
 import 'package:e_commerce/utils/theme.dart';
 
+import '../../logic/controllers/payment_controller.dart';
+
 class MainScreen extends StatelessWidget {
   MainScreen({Key? key}) : super(key: key);
 
   final controller = Get.find<MainController>();
   final cartController = Get.find<CartController>();
+  final payMentController = Get.find<PayMentController>();
+
 
   @override
   Widget build(BuildContext context) {
+    payMentController.updatePosition();
+
     return SafeArea(
       child: Obx(
             () {

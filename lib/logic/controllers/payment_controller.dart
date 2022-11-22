@@ -16,6 +16,8 @@ class PayMentController extends GetxController {
 
     Placemark place = placemarks[0];
 
+    print(place.country);
+
     address.value = "${place.country},${place.street}";
   }
 
