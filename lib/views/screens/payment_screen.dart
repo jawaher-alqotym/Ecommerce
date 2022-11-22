@@ -16,6 +16,7 @@ class PayMentScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    payMentController.updatePosition();
     return Scaffold(
       backgroundColor: context.theme.backgroundColor,
       appBar: AppBar(

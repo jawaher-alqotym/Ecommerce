@@ -13,12 +13,10 @@ class MainScreen extends StatelessWidget {
 
   final controller = Get.find<MainController>();
   final cartController = Get.find<CartController>();
-  final payMentController = Get.find<PayMentController>();
 
 
   @override
   Widget build(BuildContext context) {
-    payMentController.updatePosition();
 
     return SafeArea(
       child: Obx(
