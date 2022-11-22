@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:e_commerce/logic/controllers/cart_controller.dart';
 import 'package:e_commerce/logic/controllers/main_controller.dart';
 import 'package:e_commerce/routes/routes.dart';
-
 import 'package:e_commerce/utils/theme.dart';
 
 class MainScreen extends StatelessWidget {

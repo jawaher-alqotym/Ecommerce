@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/context_extensions.dart';
 import 'package:e_commerce/utils/theme.dart';
 import 'package:e_commerce/views/widgets/home/card_items.dart';
-//import 'package:e_commerce/views/widgets/home/search_text_form.dart';
+import 'package:e_commerce/views/widgets/home/search_text_form.dart';
 import 'package:e_commerce/views/widgets/text_utils.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                       color: Colors.white,
                     ),
                     const SizedBox(height: 20),
-                    //SearchFormText(),
+                    SearchFormText(),
                   ],
                 ),
               ),
