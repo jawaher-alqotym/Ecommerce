@@ -4,7 +4,7 @@ import 'package:e_commerce/utils/theme.dart';
 import 'package:e_commerce/views/widgets/setting/dark_mode_widget.dart';
 import 'package:e_commerce/views/widgets/setting/language_widget.dart';
 import 'package:e_commerce/views/widgets/setting/logout_widget.dart';
-//import 'package:e_commerce/views/widgets/setting/profile_widget.dart';
+import 'package:e_commerce/views/widgets/setting/profile_widget.dart';
 import 'package:e_commerce/views/widgets/text_utils.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -17,10 +17,10 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(24),
         children: [
-          // ProfileWidget(),
-          // const SizedBox(
-          //   height: 10,
-          // ),
+          ProfileWidget(),
+          const SizedBox(
+            height: 10,
+          ),
           Divider(
             color: Get.isDarkMode ? Colors.white : Colors.grey,
             thickness: 2,
